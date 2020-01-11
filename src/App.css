@@ -1,0 +1,45 @@
+.App {
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.App-Content {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.Task {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Task_input {
+  width: 70%
+}
+
+.Task_input-stroke {
+  text-decoration: line-through;
+}
+
+.Task_delete {
+  width: 20%
+}
+
+.NewTask {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.NewTask_Button {
+  margin-top: 30px
+}
